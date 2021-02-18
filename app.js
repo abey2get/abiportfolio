@@ -9,7 +9,7 @@ app.use(express.static('public'))
 
 
 app.get('/', (req, res) => {
-    res.send('hellow')
+    res.send(<h1>"hellow"</h1>)
 });
 
 
